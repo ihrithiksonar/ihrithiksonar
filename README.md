@@ -11,13 +11,13 @@
   <img src="https://komarev.com/ghpvc/?username=ihrithiksonar&label=Profile%20views&color=36BCF7&style=flat" alt="profile views" />
 
   <!-- Social badges -->
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/">
+  <a href="https://www.linkedin.com/in/hrithik-sonar/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:YOUR-EMAIL@example.com">
+  <a href="mailto:hrithiksonar.learning.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://leetcode.com/YOUR-HANDLE/">
+  <a href="https://leetcode.com/u/hrithiksonar/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white" alt="LeetCode"/>
   </a>
 
@@ -96,51 +96,6 @@ public class Hrithik extends Engineer {
 
 </div>
 
----
-
-## 🐍 Contribution Activity
-
-<!--
-  This needs a GitHub Action to generate the snake animation.
-  See setup instructions in the collapsible section below.
--->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ihrithiksonar/ihrithiksonar/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</div>
-
-<details>
-  <summary>⚙️ How to enable the snake animation</summary>
-
-  Create `.github/workflows/snake.yml` in your profile repo:
-
-  ```yaml
-  name: Generate Snake
-
-  on:
-    schedule:
-      - cron: "0 0 * * *"   # daily
-    workflow_dispatch:
-
-  jobs:
-    generate:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk/svg-only@v3
-          with:
-            github_user_name: ${{ github.repository_owner }}
-            outputs: |
-              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        - uses: crazy-max/ghaction-github-pages@v4
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  ```
-</details>
-
----
-
 ## 🚀 What I'm Building
 
 <details open>
@@ -202,4 +157,3 @@ mindmap
   ⭐️ From [ihrithiksonar](https://github.com/ihrithiksonar)
 
 </div>
-
